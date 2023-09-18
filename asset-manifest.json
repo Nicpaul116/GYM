@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/GYM/static/css/main.740e2123.css",
+    "main.js": "/GYM/static/js/main.7e49c672.js",
+    "static/media/lorenzo-hamers-jvIaut-V9a4-unsplash.jpg": "/GYM/static/media/lorenzo-hamers-jvIaut-V9a4-unsplash.8528fa6f147e0642396b.jpg",
+    "static/media/john-fornander-TAZoUmDqzXk-unsplash.jpg": "/GYM/static/media/john-fornander-TAZoUmDqzXk-unsplash.b786b94d6e60a0cffbca.jpg",
+    "static/media/sule-makaroglu-YFmvjO3TP_s-unsplash.jpg": "/GYM/static/media/sule-makaroglu-YFmvjO3TP_s-unsplash.a00e85ba47c60ec5a8c1.jpg",
+    "static/media/pexels-leon-ardho-1552242.jpg": "/GYM/static/media/pexels-leon-ardho-1552242.5a075b600b8f8c10347e.jpg",
+    "static/media/1308025.jpg": "/GYM/static/media/1308025.7199af84aa09c1422425.jpg",
+    "static/media/exercise-4607682_1920.jpg": "/GYM/static/media/exercise-4607682_1920.83885cf33cc47e4aae16.jpg",
+    "static/media/man-5311171_1920.jpg": "/GYM/static/media/man-5311171_1920.6f18a55638dc51277aa5.jpg",
+    "static/media/fitness-465205_1920.jpg": "/GYM/static/media/fitness-465205_1920.f25ae6bed8a476af5a6c.jpg",
+    "static/media/anastase-maragos-4dlhin0ghOk-unsplash.jpg": "/GYM/static/media/anastase-maragos-4dlhin0ghOk-unsplash.e35f40111bfaaefaba3c.jpg",
+    "static/media/portrait-of-a-trainer-in-gym-royalty-free-image-1584723855.jpg": "/GYM/static/media/portrait-of-a-trainer-in-gym-royalty-free-image-1584723855.018d56c0678c35697a53.jpg",
+    "static/media/abs-1850926_1920.jpg": "/GYM/static/media/abs-1850926_1920.e0cc56fd4898894cda23.jpg",
+    "static/media/maxresdefault.jpg": "/GYM/static/media/maxresdefault.297af21d9aeac864a15f.jpg",
+    "static/media/photo-1605296867304-46d5465a13f1.jpeg": "/GYM/static/media/photo-1605296867304-46d5465a13f1.37fb37fba2f85806d904.jpeg",
+    "static/media/istockphoto-856797530-612x612.jpg": "/GYM/static/media/istockphoto-856797530-612x612.6ecc57ad164ed7551d93.jpg",
+    "index.html": "/GYM/index.html",
+    "main.740e2123.css.map": "/GYM/static/css/main.740e2123.css.map",
+    "main.7e49c672.js.map": "/GYM/static/js/main.7e49c672.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.740e2123.css",
+    "static/js/main.7e49c672.js"
+  ]
+}
