@@ -1,0 +1,86 @@
+.container_contact-all{
+    font-family: sans-serif;
+    padding: 6rem 4rem;
+    color: rgb(204, 204, 204);
+}
+
+.container_contact-wrap{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container_contact-header h2{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #ff0000;
+    padding-bottom: 1rem;
+}
+
+.container_contact-info1 p, .container_contact-info2 p, .container_contact-info3 p {
+    padding: 10px 0;
+}
+
+.container_contact-icons li, .container_contact-form form{
+    display: flex;
+    padding-bottom: 3%;
+}
+
+.container_contact-icons ul{
+    padding: 0 5px;
+}
+
+.container_contact-icons a{
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+    transition: 0.2s ease-in;
+}
+
+.container_contact-icons a:hover {
+    transition: 0.2s ease-out;
+    color: #ff0000;
+    cursor: pointer;
+}
+
+.container_contact-info2 p{
+    transition: 0.2s ease-in;
+}
+
+.container_contact-info2 p:hover{
+    transition: 02.s ease-out;
+    color: #ff0000;
+    cursor: pointer;
+}
+
+
+.container_contact-form input{
+    height: 45px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container_contact-form button{
+    height: 46px;
+    width: 110px;
+    border-radius: 10px;
+    background: #ff0000;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    transition: 0.2s ease-in;
+}
+
+.container_contact-form button:hover{
+    transition: 0.2s ease-out;
+    color: #ff0000;
+    background: black;
+    border: 2px solid #ff0000;
+}
+
+@media screen and (max-width:1120px) {
+    .container_contact-all{
+        padding: 0;
+    }
+}

@@ -1,0 +1,53 @@
+.Container_header-wrap{
+  text-align: center; 
+}
+
+.header_h3{
+    font-size: 2.5rem;
+    font-family:sans-serif ;
+    padding: 1rem;
+}
+
+.header_h1{
+    font-size: 4rem;
+    padding: 1rem;
+    font-family: sans-serif;
+}
+
+.header_p{
+    font-family: sans-serif;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+.Container_header-button{
+    padding: 1rem;
+}
+
+.header_button {
+    width: 110px;
+    height: 50px;
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: 0.2s ease-in;
+}
+
+.header_button:hover{
+    background-color: black;
+    color: #FF0000;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+@media screen and (max-width:1000px) {
+    .header_h1{
+        font-size: 2rem;
+    }
+
+    .header_h3{
+        font-size: 1.5rem;
+    }
+}

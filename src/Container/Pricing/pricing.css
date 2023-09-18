@@ -1,0 +1,166 @@
+.container_pricing-section{
+    background:linear-gradient(to right, rgb(0 0 0 ), rgb(0 0 0/ 5% )) ,url('../../Assets//man-5311171_1920.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+}
+
+.container_pricing-offer{
+    font-family: sans-serif;
+    padding: 200px 0;
+}
+
+.container_pricing-offer h3{
+    font-size: 2.6rem;
+}
+
+.container_pricing-offer h1{
+    font-size: 5rem;
+    color: #ff0000;
+    padding: 1rem 0;
+}
+
+.container_pricing-info{
+   display: flex;
+   flex-direction: column;
+   max-width: 1200px;
+   width: 30%;
+   align-items: start;
+   padding: 0 50px;
+}
+
+.container_pricing-info p{
+    padding: 1rem 0;
+}
+
+.container_pricing-button, .price_button{
+    width: 110px;
+    height: 50px;
+    background: #ff0000;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: 0.2s ease-in;
+}
+
+.container_pricing-button:hover{
+    transition: 0.2s ease-out;
+    cursor: pointer;
+    background-color: black;
+    color: #ff0000;
+}
+
+.price_button:hover{
+    transition: 0.2s ease-out;
+    cursor: pointer;
+    background-color: black;
+    color: #ff0000;
+    border: 1px solid #ff0000;
+}
+
+.container_pricing-all{
+    font-family: sans-serif;
+}
+
+.container_pricing-heading{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.container_pricing-heading h2{
+    font-size: 2.6rem;
+    padding: 1rem;
+}
+
+.container_pricing-wrap{
+    display: flex;
+}
+
+.container_pricing-price{
+    background: rgb(26, 26, 26);
+    width: 100%;
+}
+
+.container_pricing-detail{
+    display: flex;
+    justify-content: center;
+}
+
+.container_price-wrap{
+    margin: 1rem 2rem;
+    padding: 1rem;
+    border: 1px solid #ff0000;
+    width: 50rem;
+    height: 25rem;
+}
+
+.price_info, .price_header{
+    text-align: center;
+}
+
+.price_header{
+    border-bottom: 1px solid rgb(49, 49, 49);
+    padding: 1rem 0 2rem 0;
+}
+
+.price_info p{
+    padding: 1rem;
+}
+
+.price_place{
+    color: rgb(122, 131, 139);
+}
+
+.price_header h2{
+    font-size: 2.3rem;
+    padding: 0.5rem;
+}
+
+.price_header h3{
+    color: #ff0000;
+    font-size: 1.5rem;
+}
+
+
+@media screen and (max-width:1000px) {
+    .container_pricing-info{
+        width: 50%;
+    }
+
+  
+}
+
+@media screen and (max-width:620px) {
+    .container_pricing-info{
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width:1110px) {
+    .container_pricing-detail{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container_price-wrap{
+        width: 75%;
+        max-width: 800px;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .container_pricing-offer h3{
+        font-size: 2rem;
+    }
+
+    .container_pricing-offer h1{
+        font-size: 3rem;
+    }
+
+
+}

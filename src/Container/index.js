@@ -1,0 +1,7 @@
+export {default as About} from './About/About'
+export {default as Blog} from './Blog/Blog'
+export {default as Contact} from './Contact/Contact'
+export {default as Gallery} from './Gallery/Gallery'
+export {default as Header} from './Header/Header'
+export {default as Trainer} from './Trainer/Trainer'
+export {default as Pricing} from './Pricing/Pricing' 

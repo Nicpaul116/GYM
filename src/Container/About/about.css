@@ -1,0 +1,148 @@
+.Container_about-men, .container_about-img2{
+    background:url('../../Assets/lorenzo-hamers-jvIaut-V9a4-unsplash.jpg') no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    width: 100%;
+    transition: all 0.8s ease 0s;
+}
+
+
+
+.container_about-img1:hover, .Container_about-women, .Container_about-men, .container_about-img2:hover {
+    transform: scale(1.2);
+    overflow: hidden;
+}
+
+.container_about-wrap1{
+    overflow: hidden;
+}
+
+.Container_about-women, .container_about-img1 {
+    background: url('../../Assets/sule-makaroglu-YFmvjO3TP_s-unsplash.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+    width: 100%;
+    transition: all 0.8s ease 0s;
+}
+
+.Container_about-women, .container_about-img2, .container_about-info{
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   font-family: sans-serif;
+   color: rgb(255, 255, 255);
+}
+
+.Container_about-men h3, .Container_about-women h3{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.Container_about-men p, .Container_about-women p,.container_about-info p{
+    width: 50%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.about-button{
+    width: 110px;
+    height: 50px;
+    background: #FF0000;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: 0.2s ease-in;
+}
+
+.about-button:hover{
+    cursor: pointer;
+    color: #FF0000;
+    background-color: black;
+    transition: 0.2s ease-out;
+}
+
+.container_about-info1 p{
+    color: rgb(122, 131, 139);
+}
+
+.container_about-wrap1{
+    display: flex;
+    width: 100%;
+}
+
+.about-image{
+    width: 100px;
+    height: 100px;
+}
+
+.container_about-wrap2{
+    display: flex;
+    padding: 0 4rem 3rem;
+}
+
+.container_about-info h3{
+    padding-top: 10rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.container_about-info p{
+    width: 35%;
+    padding-bottom: 4rem;
+}
+
+.container_about-all{
+    font-family: sans-serif;
+}
+
+.container_about-info1{
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.container_about-info1 h4{
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width:1000px) {
+    .container_about-wrap2{
+        display: block;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .container_about-wrap1{
+        display: block;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .Container_about-men h3, .Container_about-women h3{
+        font-size: 1.5rem;
+    }
+
+
+}
+
+
+@media screen and (max-width:500px) {
+    .container_about-info1 {
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .container_about-info p{
+        width: 100%;
+    }
+}
+
+
+
+
