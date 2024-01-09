@@ -1,4 +1,3 @@
-gym site
-easy navigation with different sections of what the gym provides
+Gym website is a comprehensive resource for fitness information, membership options, Features and tools to help users archive their fitness goals
 
 https://nicpaul116.github.io/GYM/
