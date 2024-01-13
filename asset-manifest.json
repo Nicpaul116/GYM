@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GYM/static/css/main.740e2123.css",
-    "main.js": "/GYM/static/js/main.7e49c672.js",
+    "main.css": "/GYM/static/css/main.cb0dd704.css",
+    "main.js": "/GYM/static/js/main.07e438d5.js",
     "static/media/lorenzo-hamers-jvIaut-V9a4-unsplash.jpg": "/GYM/static/media/lorenzo-hamers-jvIaut-V9a4-unsplash.8528fa6f147e0642396b.jpg",
     "static/media/john-fornander-TAZoUmDqzXk-unsplash.jpg": "/GYM/static/media/john-fornander-TAZoUmDqzXk-unsplash.b786b94d6e60a0cffbca.jpg",
     "static/media/sule-makaroglu-YFmvjO3TP_s-unsplash.jpg": "/GYM/static/media/sule-makaroglu-YFmvjO3TP_s-unsplash.a00e85ba47c60ec5a8c1.jpg",
@@ -17,11 +17,11 @@
     "static/media/photo-1605296867304-46d5465a13f1.jpeg": "/GYM/static/media/photo-1605296867304-46d5465a13f1.37fb37fba2f85806d904.jpeg",
     "static/media/istockphoto-856797530-612x612.jpg": "/GYM/static/media/istockphoto-856797530-612x612.6ecc57ad164ed7551d93.jpg",
     "index.html": "/GYM/index.html",
-    "main.740e2123.css.map": "/GYM/static/css/main.740e2123.css.map",
-    "main.7e49c672.js.map": "/GYM/static/js/main.7e49c672.js.map"
+    "main.cb0dd704.css.map": "/GYM/static/css/main.cb0dd704.css.map",
+    "main.07e438d5.js.map": "/GYM/static/js/main.07e438d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.740e2123.css",
-    "static/js/main.7e49c672.js"
+    "static/css/main.cb0dd704.css",
+    "static/js/main.07e438d5.js"
   ]
 }
