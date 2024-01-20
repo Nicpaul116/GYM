@@ -1,4 +1,4 @@
-.women_head {
+.men_head {
   background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.1)),
     url("../../Assets/men1.jpg") no-repeat;
   background-position: center;
@@ -6,7 +6,7 @@
   height: 500px;
 }
 
-.women_head-content {
+.men_head-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,37 +14,37 @@
   top: 50%;
 }
 
-.women_head-content h1 {
+.men_head-content h1 {
   font-size: 70px;
   font-weight: 800;
   text-transform: uppercase;
   padding: 1rem 0;
 }
 
-.women_head-content span {
+.men_head-content span {
   color: rgb(255, 0, 0);
 }
 
-.women_head-content h5 {
+.men_head-content h5 {
   font-size: 20px;
   color: rgb(255, 0, 0);
 }
 
-.women_images img {
+.men_images img {
   width: 100%;
   max-width: 350px;
   height: 300px;
   padding: 1rem;
 }
 
-.women_images-wrap {
+.men_images-wrap {
   display: flex;
   padding: 4rem 0;
   justify-content: center;
   align-items: center;
 }
 
-.women_info2-content {
+.men_info2-content {
   display: flex;
   padding: 2rem;
 }
@@ -85,7 +85,7 @@
   display: flex;
 }
 
-.women_trainer-wrap {
+.men_trainer-wrap {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -97,44 +97,44 @@
   transition: all 0.4s ease;
 }
 
-.women_trainer-header {
+.men_trainer-header {
   padding: 1rem 0;
   color: #fff;
   opacity: 1;
 }
 
-.women_icon:hover .women_trainer-wrap {
+.men_icon:hover .men_trainer-wrap {
   height: 350px;
   cursor: pointer;
   background: rgb(255, 0, 0, 0.5);
 }
 
-.women_icon {
+.men_icon {
   margin: 1rem;
 }
 
-.women_trainer-content {
+.men_trainer-content {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.women_trainer-icons a {
+.men_trainer-icons a {
   margin: 0 10px;
   color: #fff;
 }
 
-.women_trainer-allhead {
+.men_trainer-allhead {
   text-align: center;
 }
 
-.women_trainer-allhead h6 {
+.men_trainer-allhead h6 {
   margin: 2rem 0;
   font-size: 20px;
   color: rgb(255, 0, 0);
 }
 
-.women_trainer-allhead h1 {
+.men_trainer-allhead h1 {
   font-size: 30px;
   font-weight: 800;
   color: rgb(255, 0, 0);

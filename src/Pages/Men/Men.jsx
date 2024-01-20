@@ -12,16 +12,16 @@ import trainer3 from "../../Assets/trainer3.jpg";
 const Men = () => {
   return (
     <div>
-      <div className="women_head">
-        <div className="women_head-content">
+      <div className="men_head">
+        <div className="men_head-content">
           <h1>
             For <span>men</span>
           </h1>
           <h5>What we offer for Women</h5>
         </div>
       </div>
-      <div className="women_info2">
-        <div className="women_info2-content">
+      <div className="men_info2">
+        <div className="men_info2-content">
           <div className="info2_image">
             <img
               src={men2}
@@ -47,14 +47,14 @@ const Men = () => {
           </div>
         </div>
       </div>
-      <div className="women_trainer-all">
-        <div className="women_trainer-allhead">
+      <div className="men_trainer-all">
+        <div className="men_trainer-allhead">
           <h6>Our Team Members</h6>
           <h1>OUR MOST EXPRIENCED TRAINERS</h1>
         </div>
-        <div className="women_trainer-content">
+        <div className="men_trainer-content">
           <div
-            className="women_icon"
+            className="men_icon"
             style={{
               background: `url(${trainer1})`,
               height: `500px`,
@@ -63,15 +63,15 @@ const Men = () => {
               backgroundPositionX: `50%`,
             }}
           >
-            <div className="women_trainer-wrap">
-              <div className="women_trainer-header">
+            <div className="men_trainer-wrap">
+              <div className="men_trainer-header">
                 <div className="trainer_header">
                   <MdHorizontalRule style={{ width: 30 }} />
                   <p>Trainer</p>
                 </div>
                 <h4>Tyler Adams</h4>
               </div>
-              <div aria-hidden="true" className="women_trainer-icons">
+              <div aria-hidden="true" className="men_trainer-icons">
                 <a href="#1">
                   <BsFacebook />
                 </a>
@@ -85,7 +85,7 @@ const Men = () => {
             </div>
           </div>
           <div
-            className="women_icon"
+            className="men_icon"
             style={{
               background: `url(${trainer2})`,
               height: `500px`,
@@ -94,15 +94,15 @@ const Men = () => {
               backgroundPositionX: `50%`,
             }}
           >
-            <div className="women_trainer-wrap">
-              <div className="women_trainer-header">
+            <div className="men_trainer-wrap">
+              <div className="men_trainer-header">
                 <div className="trainer_header">
                   <MdHorizontalRule style={{ width: 30 }} />
                   <p>Trainer</p>
                 </div>
                 <h4>Chris jackson</h4>
               </div>
-              <div aria-hidden="true" className="women_trainer-icons">
+              <div aria-hidden="true" className="men_trainer-icons">
                 <a href="#1">
                   <BsFacebook />
                 </a>
@@ -116,7 +116,7 @@ const Men = () => {
             </div>
           </div>
           <div
-            className="women_icon"
+            className="men_icon"
             style={{
               background: `url(${trainer3})`,
               height: `500px`,
@@ -125,15 +125,15 @@ const Men = () => {
               backgroundPositionX: `center`,
             }}
           >
-            <div className="women_trainer-wrap">
-              <div className="women_trainer-header">
+            <div className="men_trainer-wrap">
+              <div className="men_trainer-header">
                 <div className="trainer_header">
                   <MdHorizontalRule style={{ width: 30 }} />
                   <p>Trainer</p>
                 </div>
                 <h4>Tony Stark</h4>
               </div>
-              <div aria-hidden="true" className="women_trainer-icons">
+              <div aria-hidden="true" className="men_trainer-icons">
                 <a href="#1">
                   <BsFacebook />
                 </a>
