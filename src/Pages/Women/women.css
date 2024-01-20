@@ -1,0 +1,144 @@
+.women_head {
+  background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.1)),
+    url("../../Assets/Women1.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.women_head-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 50%;
+}
+
+.women_head-content h1 {
+  font-size: 70px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 1rem 0;
+}
+
+.women_head-content span {
+  color: rgb(255, 0, 0);
+}
+
+.women_head-content h5 {
+  font-size: 20px;
+  color: rgb(255, 0, 0);
+}
+
+.img1 {
+}
+
+.women_images img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  padding: 1rem;
+}
+
+.women_images-wrap {
+  display: flex;
+  padding: 4rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.women_info2-content {
+  display: flex;
+  padding: 2rem;
+}
+
+.info2_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 5rem;
+}
+
+.info2_content h6 {
+  color: rgb(255, 0, 0);
+  font-size: 19px;
+  text-align: center;
+  font-weight: 100;
+}
+
+.info2_content h2 {
+  font-size: 40px;
+  font-weight: 800;
+  padding: 1.5rem 0;
+}
+
+.para1 {
+  padding: 2rem 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.para2,
+.para1,
+.info2_content h2 {
+  color: rgb(113, 119, 114);
+}
+
+.trainer_header {
+  display: flex;
+}
+
+.women_trainer-wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(0, 0, 0, 0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 20%;
+  transition: all 0.4s ease;
+}
+
+.women_trainer-header {
+  padding: 1rem 0;
+  color: #fff;
+  opacity: 1;
+}
+
+.women_icon:hover .women_trainer-wrap {
+  height: 350px;
+  cursor: pointer;
+  background: rgb(255, 0, 0, 0.5);
+}
+
+.women_icon {
+  margin: 1rem;
+}
+
+.women_trainer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.women_trainer-icons a {
+  margin: 0 10px;
+  color: #fff;
+}
+
+.women_trainer-allhead {
+  text-align: center;
+}
+
+.women_trainer-allhead h6 {
+  margin: 2rem 0;
+  font-size: 20px;
+  color: rgb(255, 0, 0);
+}
+
+.women_trainer-allhead h1 {
+  font-size: 30px;
+  font-weight: 800;
+  color: rgb(255, 0, 0);
+}

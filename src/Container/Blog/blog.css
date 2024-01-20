@@ -1,46 +1,35 @@
-.container_blog-all{
-    background:radial-gradient(at center center, rgba(255,0,0, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%) ,url('../../Assets/exercise-4607682_1920.jpg') no-repeat;
-    height: 70vh;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: sans-serif;
+.container_blog-all {
+  background: radial-gradient(
+      at center center,
+      rgba(255, 0, 0, 0.38) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url("../../Assets/exercise-4607682_1920.jpg") no-repeat;
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
 }
 
-.container_blog-wrap{
- text-align: center;
+.container_blog-wrap {
+  text-align: center;
 }
 
-.container_blog-wrap h1{
-    font-size: 3.5rem;
-    font-weight: 800;
-
+.container_blog-wrap h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
 }
 
-
-.container_blog-button{
-    height: 50px;
-    width: 110px;
-    border: none;
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: white;
-    background: #ff0000;
-    transition: 0.2s ease-in;
+.container_blog-wrap p {
+  text-transform: uppercase;
 }
 
-.container_blog-button:hover{
-    background: black;
-    color: #ff0000;
-    transition: 0.2s ease-out;
-    cursor: pointer;
-}
-
-@media screen and (max-width:500px) {
-    .container_blog-wrap h1{
-        font-size: 2.5rem;
-    }
+@media screen and (max-width: 500px) {
+  .container_blog-wrap h1 {
+    font-size: 2.5rem;
+  }
 }

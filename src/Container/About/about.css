@@ -7,6 +7,10 @@
   transition: all 0.8s ease 0s;
 }
 
+.container_about-all {
+  margin: 0;
+}
+
 .container_about-img1:hover,
 .Container_about-women,
 .Container_about-men,

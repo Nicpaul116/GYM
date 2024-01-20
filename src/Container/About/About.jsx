@@ -4,10 +4,11 @@ import image1 from "../../Assets/icons8-trainer-64.png";
 import image2 from "../../Assets/icons8-arm-muscle-60.png";
 import image3 from "../../Assets/icons8-gym-fitness-96.png";
 import image4 from "../../Assets/icons8-treadmill-50.png";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div id="About">
+    <div className="container_about-all" id="About">
       <div className="container_about-wrap1">
         <div className="container_about-img1">
           <div className="Container_about-women">
@@ -16,7 +17,9 @@ const About = () => {
               There are many variations of passages of lorem ipsum available,
               but the major have suffered alteration
             </p>
-            <button className="about-button">JOIN US</button>
+            <Link to="/Women">
+              <button className="about-button">JOIN US</button>
+            </Link>
           </div>
         </div>
         <div className="Container_about-men">
@@ -26,7 +29,9 @@ const About = () => {
               There are many variations of passages of lorem ipsum available,
               but the major have suffered alteration
             </p>
-            <button className="about-button">JOIN US</button>
+            <Link to="/Men">
+              <button className="about-button">JOIN US</button>
+            </Link>
           </div>
         </div>
       </div>

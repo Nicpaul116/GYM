@@ -6,7 +6,7 @@ const Blog = () => {
     <div className="container_blog-all" id="Blog">
       <div className="container_blog-wrap">
         <h1>A BIG OFFER FOR THIS SUMMER</h1>
-        <button className="container_blog-button">JOIN US</button>
+        <p>See Offers for more Details</p>
       </div>
     </div>
   );

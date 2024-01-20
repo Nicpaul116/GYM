@@ -1,152 +1,151 @@
-.component_navbar-all{
-    padding: 40px 10rem;
-
+.component_navbar-all {
+  padding: 40px 10rem;
 }
 
-.component_navbar-wrap{
-    align-items: center;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
+.component_navbar-wrap {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
 }
 
-.component_navbar-links a{
-    text-decoration: none;
-    color: white;
-    display: flex;
-    font-size: 1.5rem;
+.component_navbar-links a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  font-size: 1.5rem;
 }
 
-.component_navbar-info{
-    display: flex;
+.component_navbar-info {
+  display: flex;
 }
 
-.component_navbar-links p{
-    margin: 1rem;
+.component_navbar-links p {
+  margin: 1rem;
 }
 
-.component_navbar-links{
-    display: flex;
+.component_navbar-links {
+  display: flex;
 }
 
-.link{
-    transition: 0.2s ease-in;
+.link {
+  transition: 0.2s ease-in;
 }
 
-.link:hover{
-    cursor: pointer;
-    transition: 0.2s ease-in;
-    color: #FF0000;
+.link:hover {
+  cursor: pointer;
+  transition: 0.2s ease-in;
+  color: #ff0000;
 }
 
-.component_navbar-button button, .component_menu-button button{
-    width: 110px;
-    height: 50px;
-    background-color: #FF0000;
-    border: none;
+.component_navbar-button button,
+.component_menu-button button {
+  width: 110px;
+  height: 50px;
+  background-color: #ff0000;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  transition: 0.2s ease-out;
+}
+
+.component_menu-button {
+  visibility: hidden;
+}
+
+.component_navbar-button:hover button,
+.component_menu-button:hover button {
+  background-color: black;
+  cursor: pointer;
+  color: #ff0000;
+  transition: 0.2s ease-out;
+}
+
+.navbar_menu {
+  margin-left: 1rem;
+}
+
+.navbar_menu svg {
+  cursor: pointer;
+}
+
+.navbar_menu {
+  margin-left: 1rem;
+  visibility: hidden;
+}
+
+.component_menu-navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.component_menu-navbar p {
+  margin: 1rem 0;
+}
+
+.component_navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 1280px) {
+  .component_navbar-links a {
     font-size: 1rem;
-    font-weight: 600;
-    color: white;
-    transition: 0.2s ease-out;
+  }
 }
 
-.component_menu-button{
-    visibility: hidden;
-}
+@media screen and (max-width: 1070px) {
+  .component_navbar-links {
+    display: none;
+  }
+  .navbar_menu {
+    visibility: visible;
+  }
 
-.component_navbar-button:hover button, .component_menu-button:hover button{
-    background-color: black;
-    cursor: pointer;
-    color: #FF0000;
-    transition: 0.2s ease-out;
-}
-
-
-.navbar_menu{
-   margin-left: 1rem;
-}
-
-
-.navbar_menu svg{
-    cursor: pointer;
-}
-
-.navbar_menu{
-    margin-left: 1rem;
-    visibility: hidden;
-}
-
-.component_menu-navbar a{
-    text-decoration: none;
-    color: white;
-    font-size: 1.8rem;
-    font-weight: 600;
-}
-
-.component_menu-navbar p{
-    margin: 1rem 0;
-}
-
-.component_navbar{
+  .component_menu-navbar {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    z-index: 30;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    max-width: 320px;
+    height: 80vh;
+    opacity: 0.8;
+    transition: left 1s ease-in-out 0s, opacity 1s ease-in-out 0s;
+  }
+
+  .component_menu-button {
+    visibility: visible;
+  }
+
+  .component_navbar-button {
+    display: none;
+  }
+
+  .component_navbar-all {
+    padding: 40px 3rem;
+  }
 }
 
+@media screen and (max-width: 800px) {
+  .component_navbar-button {
+    display: none;
+  }
 
+  .component_menu-button {
+    display: block;
+  }
 
-
-
-@media screen and (max-width:1280px) {
-    .component_navbar-links a{
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width:1070px) {
-    .component_navbar-links{
-        display: none;
-    }
-    .navbar_menu{
-     visibility: visible;
-    }
-    
-    .component_menu-navbar{
-        display: flex;
-        z-index: 30;
-        flex-direction: column;
-        text-align: center;
-        background-color: black;
-        position: absolute;
-        top: 0px;
-        left: 0;
-        width: 100%;
-        max-width: 320px;
-        height: 80vh;
-        opacity: 0.8;
-        transition: left 1s ease-in-out 0s, opacity 1s ease-in-out 0s;
-    }
-
-    .component_menu-button{
-       visibility: visible;
-    }
-
-    .component_navbar-button{
-        display: none;
-    }
-
-    .component_navbar-all{
-        padding: 40px 3rem;
-    }
-}
-
-@media screen and (max-width:800px) {
-    .component_navbar-button{
-        display: none;
-    }
-
-    .component_menu-button{
-        display: block;
-    }
+  .component_navbar-all {
+    padding: 40px 0;
+  }
 }

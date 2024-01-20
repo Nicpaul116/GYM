@@ -17,12 +17,14 @@
   height: 300px;
 }
 
+.container_trainer {
+  padding: 1rem;
+}
 .container_trainer-wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 3rem;
-  width: 90%;
 }
 
 .container_trainer,
@@ -91,9 +93,8 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .container_trainer-wrap {
-    padding: 0 1rem;
     justify-content: center;
   }
 }

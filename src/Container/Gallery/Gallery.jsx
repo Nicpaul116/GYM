@@ -1,6 +1,6 @@
 import React from "react";
 import "./gallery.css";
-import john from "../../Assets/john-fornander-TAZoUmDqzXk-unsplash.jpg";
+import john from "../../Assets/womentrainer2.jpg";
 import fitness from "../../Assets/exercise-4607682_1920.jpg";
 import abs from "../../Assets/abs-1850926_1920.jpg";
 import anastase from "../../Assets/anastase-maragos-4dlhin0ghOk-unsplash.jpg";

@@ -1,6 +1,7 @@
 import React from "react";
 import "./pricing.css";
 import { pricedata } from "./prices";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Pricing = () => {
   return (
@@ -14,7 +15,9 @@ const Pricing = () => {
               There are many variations of passages of lorem ipsum available,
               but the majority have suffered alteration
             </p>
-            <button className="container_pricing-button">JOIN US</button>
+            <Link to="#prices">
+              <button className="container_pricing-button">View Offers</button>
+            </Link>
           </div>
         </div>
       </div>
@@ -27,7 +30,7 @@ const Pricing = () => {
           </p>
         </div>
       </div>
-      <div className="container_pricing-detail">
+      <div className="container_pricing-detail" id="prices">
         {pricedata.map((price, index) => {
           return (
             <div key={index} className="container_price-wrap">
