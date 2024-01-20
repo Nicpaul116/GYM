@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GYM/static/css/main.9149c2d4.css",
-    "main.js": "/GYM/static/js/main.1a20f79e.js",
+    "main.css": "/GYM/static/css/main.94c319c2.css",
+    "main.js": "/GYM/static/js/main.ee8e26e5.js",
     "static/media/lorenzo-hamers-jvIaut-V9a4-unsplash.jpg": "/GYM/static/media/lorenzo-hamers-jvIaut-V9a4-unsplash.8528fa6f147e0642396b.jpg",
     "static/media/gym1.jpg": "/GYM/static/media/gym1.27711f5d3079e2104da6.jpg",
     "static/media/womentrainer3.jpg": "/GYM/static/media/womentrainer3.a15ae606744e9797d59d.jpg",
@@ -27,11 +27,11 @@
     "static/media/photo-1605296867304-46d5465a13f1.jpeg": "/GYM/static/media/photo-1605296867304-46d5465a13f1.37fb37fba2f85806d904.jpeg",
     "static/media/istockphoto-856797530-612x612.jpg": "/GYM/static/media/istockphoto-856797530-612x612.6ecc57ad164ed7551d93.jpg",
     "index.html": "/GYM/index.html",
-    "main.9149c2d4.css.map": "/GYM/static/css/main.9149c2d4.css.map",
-    "main.1a20f79e.js.map": "/GYM/static/js/main.1a20f79e.js.map"
+    "main.94c319c2.css.map": "/GYM/static/css/main.94c319c2.css.map",
+    "main.ee8e26e5.js.map": "/GYM/static/js/main.ee8e26e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.9149c2d4.css",
-    "static/js/main.1a20f79e.js"
+    "static/css/main.94c319c2.css",
+    "static/js/main.ee8e26e5.js"
   ]
 }
