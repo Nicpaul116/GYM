@@ -1,27 +1,37 @@
 {
   "files": {
-    "main.css": "/GYM/static/css/main.cb0dd704.css",
-    "main.js": "/GYM/static/js/main.07e438d5.js",
+    "main.css": "/GYM/static/css/main.9149c2d4.css",
+    "main.js": "/GYM/static/js/main.1a20f79e.js",
     "static/media/lorenzo-hamers-jvIaut-V9a4-unsplash.jpg": "/GYM/static/media/lorenzo-hamers-jvIaut-V9a4-unsplash.8528fa6f147e0642396b.jpg",
-    "static/media/john-fornander-TAZoUmDqzXk-unsplash.jpg": "/GYM/static/media/john-fornander-TAZoUmDqzXk-unsplash.b786b94d6e60a0cffbca.jpg",
+    "static/media/gym1.jpg": "/GYM/static/media/gym1.27711f5d3079e2104da6.jpg",
+    "static/media/womentrainer3.jpg": "/GYM/static/media/womentrainer3.a15ae606744e9797d59d.jpg",
+    "static/media/trainer2.jpg": "/GYM/static/media/trainer2.4f8271d9d709529b987b.jpg",
     "static/media/sule-makaroglu-YFmvjO3TP_s-unsplash.jpg": "/GYM/static/media/sule-makaroglu-YFmvjO3TP_s-unsplash.a00e85ba47c60ec5a8c1.jpg",
     "static/media/pexels-leon-ardho-1552242.jpg": "/GYM/static/media/pexels-leon-ardho-1552242.5a075b600b8f8c10347e.jpg",
     "static/media/1308025.jpg": "/GYM/static/media/1308025.7199af84aa09c1422425.jpg",
+    "static/media/womentrainer1.jpg": "/GYM/static/media/womentrainer1.ddaaeea2e959a28f0a91.jpg",
     "static/media/exercise-4607682_1920.jpg": "/GYM/static/media/exercise-4607682_1920.83885cf33cc47e4aae16.jpg",
+    "static/media/trainer3.jpg": "/GYM/static/media/trainer3.0cdcbeb16c597eca8632.jpg",
+    "static/media/women2.jpg": "/GYM/static/media/women2.1d388ea472df8e04a191.jpg",
+    "static/media/womentrainer2.jpg": "/GYM/static/media/womentrainer2.7153995301a6b335aee4.jpg",
+    "static/media/men1.jpg": "/GYM/static/media/men1.21528f6336ca2c593b14.jpg",
     "static/media/man-5311171_1920.jpg": "/GYM/static/media/man-5311171_1920.6f18a55638dc51277aa5.jpg",
+    "static/media/men2.jpg": "/GYM/static/media/men2.ec8015f683e09113a5b5.jpg",
     "static/media/fitness-465205_1920.jpg": "/GYM/static/media/fitness-465205_1920.f25ae6bed8a476af5a6c.jpg",
+    "static/media/trainer1.jpg": "/GYM/static/media/trainer1.e392340d56e40bebe27e.jpg",
     "static/media/anastase-maragos-4dlhin0ghOk-unsplash.jpg": "/GYM/static/media/anastase-maragos-4dlhin0ghOk-unsplash.e35f40111bfaaefaba3c.jpg",
+    "static/media/Women1.jpg": "/GYM/static/media/Women1.1a4b632a200d36132b9c.jpg",
     "static/media/portrait-of-a-trainer-in-gym-royalty-free-image-1584723855.jpg": "/GYM/static/media/portrait-of-a-trainer-in-gym-royalty-free-image-1584723855.018d56c0678c35697a53.jpg",
     "static/media/abs-1850926_1920.jpg": "/GYM/static/media/abs-1850926_1920.e0cc56fd4898894cda23.jpg",
     "static/media/maxresdefault.jpg": "/GYM/static/media/maxresdefault.297af21d9aeac864a15f.jpg",
     "static/media/photo-1605296867304-46d5465a13f1.jpeg": "/GYM/static/media/photo-1605296867304-46d5465a13f1.37fb37fba2f85806d904.jpeg",
     "static/media/istockphoto-856797530-612x612.jpg": "/GYM/static/media/istockphoto-856797530-612x612.6ecc57ad164ed7551d93.jpg",
     "index.html": "/GYM/index.html",
-    "main.cb0dd704.css.map": "/GYM/static/css/main.cb0dd704.css.map",
-    "main.07e438d5.js.map": "/GYM/static/js/main.07e438d5.js.map"
+    "main.9149c2d4.css.map": "/GYM/static/css/main.9149c2d4.css.map",
+    "main.1a20f79e.js.map": "/GYM/static/js/main.1a20f79e.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb0dd704.css",
-    "static/js/main.07e438d5.js"
+    "static/css/main.9149c2d4.css",
+    "static/js/main.1a20f79e.js"
   ]
 }
