@@ -23,7 +23,7 @@ const Women = () => {
       <div className="women_info2">
         <div className="women_info2-content">
           <div className="info2_image">
-            <img src={women2} alt="#" style={{ width: 500, height: 600 }} />
+            <img src={women2} alt="#" />
           </div>
           <div className="info2_content">
             <h6>For Women</h6>

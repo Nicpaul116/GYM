@@ -30,7 +30,9 @@
   color: rgb(255, 0, 0);
 }
 
-.img1 {
+.info2_image img {
+  width: 500px;
+  height: 500px;
 }
 
 .women_images img {
@@ -120,6 +122,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .women_trainer-icons a {
@@ -141,4 +144,22 @@
   font-size: 30px;
   font-weight: 800;
   color: rgb(255, 0, 0);
+}
+
+@media screen and (max-width: 1050px) {
+  .women_info2-content {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .women_head-content h1 {
+    font-size: 40px;
+  }
+  .info2_image img {
+    width: 300px;
+    height: 400px;
+  }
 }
